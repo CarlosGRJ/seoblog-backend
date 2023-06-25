@@ -3,3 +3,5 @@ export interface ISignupRequestBody {
   email: string;
   password: string;
 }
+
+export type ISigninRequestBody = Omit<ISignupRequestBody, 'name'>;

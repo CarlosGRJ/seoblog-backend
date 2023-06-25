@@ -6,6 +6,10 @@
     "outDir": "./dist",
     "skipLibCheck": true,
     "strict": true,
-    "target": "es2018"
+    "target": "es2018",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
   }
 }
